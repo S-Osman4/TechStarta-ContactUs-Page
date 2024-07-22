@@ -35,9 +35,9 @@ The goal of this project was to create a visually appealing and user-friendly co
 
 ## Demonstration
 
-Link to [live deployement]()
+Link to [live deployement](https://s-osman4.github.io/TechStarta-ContactUs-Page/)
 
-![Contact Us Page Demo]()
+![Contact Us Page Demo](demo.png)
 
 ## Future Improvements
 
