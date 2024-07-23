@@ -196,7 +196,7 @@ main {
     padding: 30px;
     border-radius: 8px;
     flex: 2;
-
+    padding-right: 50px;
 }
 
 form {
@@ -305,7 +305,6 @@ footer {
     .contact-form {
         margin-top: 20px;
         padding: auto;
-        padding-right: 50px;
     }
   
     .form-group {
