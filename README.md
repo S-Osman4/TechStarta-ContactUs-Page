@@ -21,7 +21,7 @@ The goal of this project was to create a visually appealing and user-friendly co
 
 - `index.html`: The main HTML file.
 - `styles.css`: The main CSS file.
-- `assests/`: Folder containing team images.  
+- `assests/`: Folder containing images.  
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ Link to [live deployement](https://s-osman4.github.io/TechStarta-ContactUs-Page/
 
 ## Author
 
-[Shamso Osman]
+[Shamso Osman](https:www.github.com/s-osman4)
 
 ## License
 
