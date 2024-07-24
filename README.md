@@ -47,7 +47,7 @@ Link to [live deployement](https://s-osman4.github.io/TechStarta-ContactUs-Page/
 
 ## Author
 
-[Shamso Osman](https:www.github.com/s-osman4)
+[Shamso Osman](https://github.com/S-Osman4)
 
 ## License
 
