@@ -104,9 +104,19 @@ p {
     color: #047d95;
 }
 
+.login-button:hover {
+    background-color: rgb(191, 225, 236);
+    border: 1px solid #047d95;
+}
+
 .signup-button {
     background-color: #047d95;
     color: white;
+}
+
+.signup-button:hover {
+    background-color: #136373;
+   
 }
 
 /* Contact Page */
