@@ -6,101 +6,96 @@
   <title>Contact Us</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
-
 </head>
 <body>
-  <div class="container">
-    <div class="container-h3"><h3>Project</h3></div>
+  <header class="container">
+    <h3>Project</h3>
     <h1>Build A Responsive Contact Us Page</h1>
-    <section class="info-section">
-      <p>This project will guide you through building a responsive contact us page using HTML and CSS inspired by the Figma design: <a class="aws-link" href="https://www.figma.com/design/DhHomnRq1eKOC6r3gasY2y/AWS-Amplify-UI-Kit-(Community)?node-id=3935-3460&t=Dnn6RbwczeiJqZZD-0">AWS Amplify UI Kit</a> The contact us page will allow users to get in touch with your website or business by providing a contact form and displaying your contact information.</p>
-      <ul class="tags">
-        <li class="tag-1">Frontend</li>
-        <li class="tag-2">Intermediate</li>
-      </ul>
+  </header>
+
+  <section class="info-section">
+    <p>This project will guide you through building a responsive contact us page using HTML and CSS inspired by the Figma design: <a class="aws-link" href="https://www.figma.com/design/DhHomnRq1eKOC6r3gasY2y/AWS-Amplify-UI-Kit-(Community)?node-id=3935-3460&t=Dnn6RbwczeiJqZZD-0">AWS Amplify UI Kit</a>. The contact us page will allow users to get in touch with your website or business by providing a contact form and displaying your contact information.</p>
+    <ul class="tags">
+      <li class="tag-1">Frontend</li>
+      <li class="tag-2">Intermediate</li>
+    </ul>
+  </section>
+
+  <main class="contact-page">
+    <header class="navbar">
+      <div class="navbar-items">
+        <img class="amplify-icon" alt="" src="./assets/amplify-icon.svg"/>
+        
+          <div>Home</div>
+          <div>Products</div>
+          <div>Pricing</div>
+          <div>Contact</div>
+        
+      </div>
+      <div class="actions">
+        <button class="login-button">Login</button>
+        <button class="signup-button">Sign up</button>
+      </div>
+    </header>
+
+    <section class="contact-heading">
+      <h1>Contact us</h1>
+      <h3>We love to hear from our customers</h3>
     </section>
 
-    <div class="contact-page">
-        <header class="navbar">
-          <div class="navbar-items">
-            <img class="amplify-icon" alt="" src="./assets/amplify-icon.svg"/>  
-            <div class="home">Home</div>
-            <div class="products">Products</div>
-            <div class="pricing">Pricing</div>
-            <div class="contact">Contact</div>
+    <div class="contact-container">
+      <section class="contact-info">
+        <div class="email">
+          <img src="./assets/email.svg" alt="email">
+          <div>
+            <h3>By email</h3>
+            <p>hello@amplify.aws</p>
           </div>
-          <div class="actions">
-            <button class="login-button">Login</button>
-            <button class="signup-button">Sign up</button>
-          </div>
-        </header>
-        <div class="contact-heading">
-            <h1>Contact us</h1>
-            <h3>We love to hear from our customers</h3>
         </div>
-        <main>
-          <div class="contact-container">
-              <div class="contact-info">
-                  <div class="email">
-                      <img src="./assets/email.svg" alt="email">
-                      <div>
-                          <h3>By email</h3>
-                          <p>hello@amplify.aws</p>
-                      </div>
-                  </div>
-                  <div class="phone">
-                      <img src="./assets/phone.svg" alt="phone">
-                      <div>
-                          <h3>By phone</h3>
-                          <p>+1 (123) 456-7890</p>
-                      </div>
-                  </div>
-                  <div class="map">
-                      <img src="./assets/map.svg" alt="map">
-                      <div>
-                          <h3>In person</h3>
-                          <p>123 Main Street</p>
-                          <p>Anytown, USA 12345</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="contact-form">
-                  <form action="">
-                      <div class="form-group">
-                        <div class="input-group">
-                          <label for="first-name">First name</label>
-                          <input type="text" id="first-name" name="first-name" required>
-                      </div>
-                      <div class="input-group">
-                          <label for="last-name">Last name</label>
-                          <input type="text" id="last-name" name="last-name" required>
-                      </div>
-                      </div>
-                      <div class="input-group">
-                        <label for="email">Email address</label>
-                        <input type="email" id="email" name="email" required>
-                      </div>
-                      <div class="input-group">
-                          <label for="message">Message</label>
-                          <textarea id="message" name="message" rows="4" required></textarea>
-                      </div>                      
-                      <div class="checkbox-group">
-                          <input type="checkbox" id="policy" name="policy" required>
-                          <label for="policy">You accept the policy</label>
-                      </div>
-                      <button type="submit">Send</button>
-                  </form>
-                  <div class="social-media">
-                      <a href="#"><img src="./assets/instagram.svg" alt="Instagram"> Instagram</a>
-                      <a href="#"><img src="./assets/twitter.svg" alt="Twitter">Twitter</a>
-                  </div>
-              </div>
+        <div class="phone">
+          <img src="./assets/phone.svg" alt="phone">
+          <div>
+            <h3>By phone</h3>
+            <p>+1 (123) 456-7890</p>
           </div>
-      </main>
-  </div>
-  <hr>
-  <footer>
-    <p>&copy; 2024 Shamso Osman</p>
-  </footer>
-</body>
-</html>
+        </div>
+        <div class="map">
+          <img src="./assets/map.svg" alt="map">
+          <div>
+            <h3>In person</h3>
+            <p>123 Main Street</p>
+            <p>Anytown, USA 12345</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <form action="">
+          <div class="form-group">
+            <div class="input-group">
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="input-group">
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="policy" name="policy" required>
+            <label for="policy">You accept the policy</label>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+
+        <div class="social-media">
+          <a href="#"><img src="./assets/instagram.svg" alt="Instagram"> Instagram</a>
+          <a href="#"><img src="./assets/twitter.svg" alt="Twitter">Twitter</a>
